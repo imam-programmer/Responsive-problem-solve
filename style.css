@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+}
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.nav-flex ul {
+    display: flex;
+}
+.nav-flex ul li {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 0 22px;
+}
+.nav-flex ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-flex .contact-btn {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 140px;
+    background-color: #0A84FF;
+    border: none;
+    height: 42px;
+}
+
+.hero-area-flex {
+    margin-top: 400px;
+    position: absolute;
+    top: 0;
+    margin-left: 149px;
+}
+.hero-area-flex h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: "Barlow", sans-serif;
+    width: 712px;
+    height: 172px;
+    line-height: 100px;
+}
+.hd-span {
+    border-radius: 16px;
+    background-color: #0A84FF;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.hero-area-flex p {
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255, .8);
+    width: 547px;
+    height: 64px;
+    margin-top: 55px;
+    line-height: 32px;
+}
+.hero-area-flex .meeting-btn {
+    margin-top: 43px;
+    background-color: #0A84FF;
+    color: #FFFFFF;
+    width: 165px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+}
+.follower {
+    position: relative;
+}
+.follower img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 30px;
+}
+.follower .p {
+    color: rgb(255, 255, 255, .8);
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 75px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 28px;
+}
+.second {
+    position: absolute;
+    top: 0;
+    margin-left: 650px;
+    margin-top: 120px;
+}
+
+/* header part end ............................................... */
+
+.first-div {
+    border: 1px solid #8961FF;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+/* first section complete .................................................. */
+h2 {
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 115px;
+    height: 112px;
+    line-height: 56px;
+
+}
+
+h2 .span {
+    margin-left: 125px;
+}
+
+.card-flexx {
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-top: 1500px;
+    gap: 48px;
+    margin-left: 106px;
+    padding-bottom: 200px;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Barlow", sans-serif;
+    /* margin: 0 77px; */
+
+}
+
+.cardone {
+    background-color: #141414;
+    border-radius: 36px;
+}
+
+.cardone h4 {
+    margin: 32px 77px;
+}
+
+.cardone p {
+    color: rgb(255, 255, 255, .8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Barlow", sans-serif;
+    max-width: 265px;
+    line-height: 24px;
+    margin: 32px 56px 42px 56px;
+}
+
+.cardone img {
+    margin: 42px 77px 32px 77px;
+}
+
+.cardtwo {
+    background-color: #141414;
+    border-radius: 36px;
+}
+
+.cardtwo h4 {
+    margin: 32px 83.5px;
+}
+
+.cardtwo img {
+    margin: 60.5px 83.5px 32px 83.5px;
+}
+
+.cardtwo p {
+    color: rgb(255, 255, 255, .8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Barlow", sans-serif;
+    max-width: 265px;
+    margin: 32px 56px 60.5px 56px;
+    line-height: 24px;
+
+}
+
+.cardthree {
+    background-color: #141414;
+    border-radius: 36px;
+}
+
+.cardthree h4 {
+    margin: 32px 83.5px;
+}
+
+.cardthree img {
+    margin: 60.5px 83.5px 32px 83.5px;
+}
+
+.cardthree p {
+    color: rgb(255, 255, 255, .8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Barlow", sans-serif;
+    max-width: 265px;
+    line-height: 24px;
+    margin: 32px 56px 60.5px 56px;
+}
+
+.images-frame img {
+    margin-left: 1250px;
+    margin-top: 180px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 600px;
+    line-height: 56px;
+}
+
+/* second part complete ............................................. */
+.third-flex {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 240px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    right: 18%;
+}
+
+.third-flex .one {
+    border-radius: 1000px;
+    background-color: #141414;
+    width: 280px;
+    height: 280px;
+    gap: 16px;
+    padding: 42px 0;
+    box-shadow: 0 0 0 10px #000000;
+    position: absolute;
+    left: 440px;
+
+}
+
+.one .svg {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.solutions {
+    margin-left: 60px;
+}
+
+.one .inno {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    margin: 18px 94px;
+}
+
+.one p {
+    color: rgb(255, 255, 255, .7);
+    width: 196px;
+    margin: 16px 42px 61px 52px;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.two {
+    border-radius: 1000px;
+    background-color: #141414;
+    width: 280px;
+    height: 280px;
+    gap: 16px;
+    padding: 42px 0;
+    box-shadow: 0 0 0 10px #000000;
+    position: absolute;
+    left: 690px;
+
+}
+
+.two .collaboration {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    margin: 18px 80px;
+}
+
+.two .colla {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.two .collab {
+    color: rgb(255, 255, 255, .7);
+    width: 196px;
+    margin: 16px 42px 61px 52px;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.three {
+    border-radius: 1000px;
+    background-color: #141414;
+    width: 280px;
+    height: 280px;
+    gap: 16px;
+    padding: 42px 0;
+    box-shadow: 0 0 0 10px #000000;
+    position: absolute;
+    left: 950px;
+}
+
+.three .exxe {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.three .excellence {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    margin: 18px 94px;
+}
+
+.three .exce {
+    color: rgb(255, 255, 255, .7);
+    width: 196px;
+    margin: 16px 42px 61px 52px;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.three .outcomes {
+    margin-left: 50px;
+}
+
+.four {
+    border-radius: 1000px;
+    background-color: #141414;
+    width: 280px;
+    height: 280px;
+    gap: 16px;
+    padding: 42px 0;
+    box-shadow: 0 0 0 10px #000000;
+    position: absolute;
+    left: 1200px;
+}
+
+.four .svgg {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.four .inte {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    margin: 18px 100px;
+}
+
+.four .ope {
+    color: rgb(255, 255, 255, .7);
+    width: 196px;
+    margin: 16px 42px 61px 52px;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Fourth section .................................................... */
+.why {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    color: #FFFFFF;
+    margin-top: 275px;
+}
+
+.img-flex {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 172px;
+    margin-right: 172px;
+    margin-bottom: 40px;
+    gap: 60px;
+}
+
+.paragraph-flex {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* position: relative; */
+}
+
+.paragraph-flex .same {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lexend", sans-serif;
+    width: 325.33px;
+    line-height: 150%;
+    height: 96px;
+    letter-spacing: 0px;
+
+}
+
+.paragraph-flex h5 {
+    color: #0A84FF;
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    width: 120px;
+    line-height: 110%;
+    height: 37px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.ceo {
+    color: rgb(10, 132, 255, .6);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.problem {
+    color: #0A84FF;
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    width: 120px;
+    line-height: 150%;
+
+}
+
+.ceoo {
+    color: rgb(10, 132, 255, .6);
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 150%;  */
+}
+
+.solution {
+    margin-left: 80px;
+}
+
+.intuitive {
+    margin-left: 80px;
+}
+
+.samee {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 260px;
+}
+
+.imgg {
+    position: relative;
+    bottom: 260px;
+}
+
+.sameee {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+.img-problem {
+    position: relative;
+    bottom: 260px;
+}
+
+.svgone {
+    border-radius: 1000px;
+    padding: 18px 12px;
+    width: 52px;
+    height: 52px;
+    background-color: #141414;
+    position: absolute;
+    left: 0;
+    margin-left: -100px;
+    bottom: 110px;
+
+
+}
+
+.sv {
+    position: relative;
+}
+
+.svgt {
+    border-radius: 1000px;
+    padding: 12px 12px;
+    width: 52px;
+    height: 52px;
+    background-color: #141414;
+    position: absolute;
+    right: 0;
+    margin-right: -100px;
+    bottom: 115px;
+}
+
+.svgtwo {
+    position: relative;
+}
+
+.learn-btn {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+    padding: 14px 47.5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0A84FF;
+    margin-top: 61px;
+    margin-left: 630px;
+}
+
+/* fourth section complete ....................................... */
+.fifth {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    margin-left: 500px;
+}
+
+.one-flex {
+    display: flex;
+    justify-content: center;
+    border-radius: 36px;
+    background-color: #1E1E1E;
+    width: 798px;
+    height: 254px;
+    padding: 50px 34px;
+    position: relative;
+    margin: 72px auto;
+}
+
+.one-flex .waht {
+    color: #0A84FF;
+    width: 588px;
+    position: absolute;
+    left: 0;
+    margin-left: 160px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.zero {
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    padding: 20px 25px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #2E2E2E, #1E1E1E);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    color: #0A84FF;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+
+}
+
+.Catalyst {
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    color: rgb(255, 255, 255, .6);
+    width: 588px;
+    height: 108px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 110px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+.error {
+    width: 798px;
+    height: 140px;
+    padding: 50px 30px;
+    background-color: #141414;
+    border-radius: 36px;
+    position: relative;
+    margin: 24px auto;
+
+}
+
+.error .zero-two {
+    border-radius: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px 20px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom, #2E2E2E, #141414);
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+
+}
+
+.error .lorem {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Barlow", sans-serif;
+}
+
+.error .icon-same {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 50px;
+
+}
+
+/* Fifth part done ....................................... */
+footer {
+    padding-bottom: 127px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.footer-flex {
+    display: flex;
+    margin-top: 82.5px;
+    position: relative;
+}
+
+.ul-item {
+    display: flex;
+    /* position: relative; */
+}
+
+.ul-item li {
+    list-style: none;
+    margin-top: 20px;
+
+
+}
+
+.ul-item li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    /* gap: 30px; */
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    margin: 0px 30px;
+
+
+}
+
+.footer-logo {
+    margin-right: 275px;
+
+}
+
+.box {
+    width: 258px;
+    height: 92px;
+    padding: 14px 14px 14px 24px;
+    border-radius: 12px;
+    border: 1px solid rgb(128, 128, 128, .15);
+    display: flex;
+    gap: 14px;
+    margin-left: 700px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -10px;
+}
+
+.fb {
+    background: linear-gradient(to bottom, #2E2E2E, #141414);
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 64px;
+    height: 64px;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.yahoo {
+    background: linear-gradient(to bottom, #2E2E2E, #141414);
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 64px;
+    height: 64px;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.in {
+    background: linear-gradient(to bottom, #2E2E2E, #141414);
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 64px;
+    height: 64px;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.contact-flex {
+    display: flex;
+    margin-top: 90px;
+    gap: 30px;
+    /* position: relative; */
+}
+
+.same-h5 {
+    color: rgb(255, 255, 255, .9);
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+h6 {
+    color: rgb(255, 255, 255, .7);
+    gap: 24px;
+    font-size: 18px;
+     font-family: "Barlow", sans-serif;
+     font-weight: 400;
+}
+.gap{
+    margin-left: 230px;
+    display: flex;
+    gap: 24px;
+}
+
+
+/* =============my codes================ */
+.fa-bars{
+    display: none;
+    font-size: 25px;
+   
+}
+
